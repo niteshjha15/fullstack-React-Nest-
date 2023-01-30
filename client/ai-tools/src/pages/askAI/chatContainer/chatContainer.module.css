@@ -1,0 +1,50 @@
+.chats {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #f2deba;
+  width: 100%;
+  padding: 1rem;
+  margin: 0.3rem 0rem;
+  border-radius: 10px;
+}
+
+.gpt {
+  display: flex;
+  align-items: center;
+  background-color: #faecd6;
+  padding: 1rem;
+  margin: 0.3rem 0rem;
+  border-radius: 10px;
+}
+.user > span {
+  margin-right: 0.5rem;
+}
+
+.gpt > span {
+  margin-left: 0.5rem;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  background-color: #faecd6;
+  padding: 1rem;
+  margin: 0.3rem 0rem;
+  border-radius: 10px;
+}
+
+.loading > span {
+  margin-left: 0.5rem;
+}
+
+.loadingDot{
+  font-size: 1.5rem;
+}

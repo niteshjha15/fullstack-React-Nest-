@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+:root{
+    --primary-text-color:#7B8FA1;
+    --cold-blue:#EAFDFC
+}
